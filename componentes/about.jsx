@@ -1,21 +1,19 @@
-function About(){
-    return(
-        <>
-        <div className="cont-about">
-            <h2>Sobre la aplicación:</h2>
-            <div>
-                <ul>
-                    <li>Nombre del proyecto: React Traductor</li>
-                    <li>Autor: Benjamin Sanchez</li>
-                    <li>Tecnologías: React y JavaScript</li>
-                    <li>Materia: Proyecto y diseño de software para plataformas móviles</li>
-                </ul>
-                <h3>Descripción:</h3>
-                <p>React Traductor es una aplicación para traducir texto del español a otros idiomas de nuestra selección, utiliza una api de google que se encarga de recibir el texto y devolver la traducción del mismo, tambien incluye temas vistos en clase como el uso de hooks como useState para el manejo de estados,useEffect para el fetch a la api  o useParams para el manejo de rutas dinámicas ademas de poseer un sistema de rutas</p>
-            </div>
-        </div>
-
-        </>
-    )
+function About() {
+  return (
+    <section className="about-container">
+      <h2>📘 Sobre la aplicación</h2>
+      <ul className="about-details">
+        <li><strong> Proyecto:</strong> React Traductor</li>
+        <li><strong> Autor:</strong> Benjamin Sanchez</li>
+        <li><strong> Tecnologías:</strong> React y JavaScript</li>
+        <li><strong> Materia:</strong> Proyecto y diseño de software para plataformas móviles</li>
+      </ul>
+      <h3> Descripción</h3>
+      <p>
+        React Traductor es una aplicación que traduce texto del español a varios idiomas seleccionados. Utiliza la API de Google para procesar y devolver traducciones. Además, incorpora conceptos vistos en clase como <code>useState</code> para manejar estados, <code>useEffect</code> para realizar peticiones a la API, y <code>useParams</code> para rutas dinámicas. También cuenta con un sistema de navegación basado en rutas.
+      </p>
+    </section>
+  );
 }
-export default About
+
+export default About;

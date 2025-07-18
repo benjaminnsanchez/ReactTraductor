@@ -30,23 +30,57 @@ body{
    margin: 0;
 }
 /* About */
-.cont-about{
+/* About Section */
+.about-container {
+  background-color: #ffffff;
+  width: 80vw;
+  max-width: 900px;
+  margin: 5% auto;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
 
-    background-color: rgb(255, 255, 255);
-    width: 80vw;
-    height: 40vh;
-    margin: auto;
-    padding: 2%;
-    margin-top: 5%;
-    border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);   
+.about-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #6366f1;
 }
-.cont-about h2,.cont-about h3{
-    margin: 0;
+
+.about-container h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #8b5cf6;
 }
-.cont-about ul li{
-list-style: none;
+
+.about-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+.about-details li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.about-container code {
+  background-color: #f3f3f3;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #d63384;
+}
+
 /* IDIOMAS */
 .cont-inputs{
    
