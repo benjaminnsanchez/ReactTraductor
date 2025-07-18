@@ -1,7 +1,7 @@
 function About() {
   return (
     <section className="about-container">
-      <h2>📘 Sobre la aplicación</h2>
+      <h2> Sobre la aplicación</h2>
       <ul className="about-details">
         <li><strong> Proyecto:</strong> React Traductor</li>
         <li><strong> Autor:</strong> Benjamin Sanchez</li>
