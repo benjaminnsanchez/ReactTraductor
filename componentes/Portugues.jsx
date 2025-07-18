@@ -27,7 +27,7 @@ const handleCambiarIdioma =()=>{
 }
 const traducirTexto = async () => {
   try {
-    const response = await fetch('http://localhost:3002/translate', {
+    const response = await fetch('https://react-traductor-back-1.onrender.com/translate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ idiomaOrigen,text: textOr, idioma }),
