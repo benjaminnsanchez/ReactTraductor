@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+}
+.header i{
+ font-size: 200%;
+ margin: auto 10px;
+ color: white;
+
+}
+.header nav{
+    margin: auto;
+     margin-right: 0;
+   padding-left: 1%;
+   padding-right: 2%;
+}
+.header a{
+   text-decoration: none;
+   padding-right: 3%;
+   color: white;
+}
+.header a:hover{
+    color: #1b0650;
+    transition: 0.5s;
+  
+}
+body{
+    font-family:  Roboto;
+   margin: 0;
+}
+/* About */
+.cont-about{
+
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    height: 40vh;
+    margin: auto;
+    padding: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);   
+}
+.cont-about h2,.cont-about h3{
+    margin: 0;
+}
+.cont-about ul li{
+list-style: none;
+}
+/* IDIOMAS */
+.cont-inputs{
+   
+
+   
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+     width: 80vw;
+         height: 40vh;
+    margin: auto;
+    padding: 2%;
+    margin-top: 5%;
+    
+    border-radius: 20px;
+}
+.cont-text{
+    display: flex;
+    
+
+}
+.cont-text p:last-of-type{
+    margin-left:auto ;
+
+}
+.input-content p{
+    margin: 0;
+}
+#contenido{
+width: 35vw;
+height: 25vh;
+border-radius: 10px;
+border: #d7d6d6 solid 2px;
+font-family: Roboto;
+color: rgb(124, 124, 124);
+font-size: 20px;
+}
+textarea {
+resize: none;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+.buttons{
+    display: grid;
+    text-align: center;
+   color: rgb(124, 124, 124);
+   
+
+}
+.buttons i{
+       margin-bottom: 1%;
+           transition: 0.5s;
+       
+}
+.buttons i:hover{
+      
+        transform: scale(1.03);
+            transition: 0.5s;
+            cursor: pointer;
+}
+.buttons button{
+    border: none;
+    background-color: #6366f1;
+    color: white;
+    border: solid #6366f1 2px;
+    width: 10vw;
+    padding: 1%;
+    border-radius:10px ;
+    margin: auto;
+    transition: 0.5s;
+   
+}
+.buttons button:hover{
+        background-color: white;
+    color: #6366f1;
+    transition: 0.5s;
+      transform: scale(1.03);
+}
