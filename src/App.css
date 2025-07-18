@@ -30,8 +30,8 @@ body{
    margin: 0;
 }
 /* About */
-/* About Section */
-.about-container {
+
+.about-cont {
   background-color: #ffffff;
   width: 80vw;
   max-width: 900px;
@@ -43,37 +43,37 @@ body{
   color: #333;
 }
 
-.about-container h2 {
+.about-cont h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #6366f1;
 }
 
-.about-container h3 {
+.about-cont h3 {
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: #8b5cf6;
 }
 
-.about-details {
+.about-cont-text {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.about-details li {
+.about-cont-text li {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
 
-.about-container p {
+.about-cont p {
   font-size: 1rem;
   line-height: 1.6;
   margin-top: 1rem;
 }
 
-.about-container code {
+.about-cont code {
   background-color: #f3f3f3;
   padding: 0.2rem 0.4rem;
   border-radius: 5px;

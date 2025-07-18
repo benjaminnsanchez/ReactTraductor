@@ -1,8 +1,8 @@
 function About() {
   return (
-    <section className="about-container">
+    <section className="about-cont">
       <h2> Sobre la aplicación</h2>
-      <ul className="about-details">
+      <ul className="about-cont-text">
         <li><strong> Proyecto:</strong> React Traductor</li>
         <li><strong> Autor:</strong> Benjamin Sanchez</li>
         <li><strong> Tecnologías:</strong> React y JavaScript</li>
