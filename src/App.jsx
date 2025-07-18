@@ -1,7 +1,7 @@
 import { BrowserRouter,Route,Routes,Link } from 'react-router'
 import './App.css'
 import Layout from '../componentes/Layout'
-import Header from '../../sections/header'
+import Header from './sections/header'
 import About from '../componentes/about'
 import Ingles from '../componentes/Ingles'
 import Frances from '../componentes/Frances'
